@@ -12,8 +12,10 @@ int main()
     cin >> radius;
     double area;
     area = 3.14 * radius * radius;
-	cout << "The area of a circle with radius \n";
-	//Calculate the area of the circle
-    coutt << area << endl; 
+    cout << "The area of a circle" << area << endl;
+	
+    double c;
+    c = 2 * 3.14 * r;
+    cout << "the circumference is: " << r << endl;
 	return 0;
 }
